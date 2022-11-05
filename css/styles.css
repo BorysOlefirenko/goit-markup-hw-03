@@ -1,0 +1,250 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    color: #757575;
+}
+
+/* Студія____________________________________ */
+/* Логотип */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19231;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+/* Хедер */
+
+.header-nav {
+    list-style: none;
+    }
+
+.header-nav-links {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-links:hover,
+.header-nav-links:focus,
+.header-contact:hover,
+.header-contact:focus {
+    color: #2196F3;
+}
+
+.header-contact{
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.02em;
+}
+
+
+/* main */
+
+/* Герой */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-hero {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: none;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus{
+    background: #188CE8;
+}
+
+/* Секції */
+/* Заголовки секцій */
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Секція Наші переваги */
+
+.features {
+    font-size: 14px;
+    line-height: 1.7143;
+    letter-spacing: 0.03em;
+    list-style: none;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+/* Секція чим ми займаємося*/
+
+.directions{
+    list-style: none;
+}
+
+/* Секція команда */
+.section-team{
+    background: #F5F4FA;
+    }
+
+.team {
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    list-style: none;
+}
+
+.team-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+/* Футер */
+
+.footer{
+background: #2F303A;
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.footer-logo-studio {
+    color: #FFFFFF;
+    }
+
+address{
+    font-style: normal;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-address{
+    font-size: 14px;
+    line-height: 1.7143;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.7143;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus{
+    color: #2196F3;
+}
+
+/* Портфоліо____________________________________ */
+/* Кнопки портфоліо */
+
+.button-list{
+    list-style: none;
+}
+
+.button-portfolio{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Список портфоліо */
+
+.portfolio-list{
+    list-style: none;
+}
+
+.portfolio-list-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;  
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-type{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
