@@ -20,6 +20,8 @@ ul{
 
 img{
     display: block;
+    max-width: 100%;
+    /* height: auto; є проблема з одною картинкою (монітор) */
 }
 
 button{
@@ -263,8 +265,8 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: #212121;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 /* Футер */
@@ -366,6 +368,7 @@ address{
     border-right: 1px solid #ECECEC;
     border-bottom: 1px solid #ECECEC;
     width: 370px;
+    padding: 20px 24px 20px 24px;
 }
 
 .portfolio-section{
@@ -387,19 +390,12 @@ address{
     line-height: 2;  
     letter-spacing: 0.06em;
     color: #212121;
-    padding-top: 20px;
-    margin-bottom: 4px;
-    width: 322px;
-    margin-left: 24px;
-    margin-right: 24px;
+    
+    
 }
 
 .portfolio-type{
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    width: 322px;
-    margin-left: 24px;
-    margin-right: 24px;
+    letter-spacing: 0.03em;    
 }
