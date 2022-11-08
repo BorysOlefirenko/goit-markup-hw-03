@@ -132,9 +132,9 @@ body{
     line-height: 1.875;
     display: block;
     margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    /* align-items: center;
+    text-align: center; */
+    /* letter-spacing: 0.06em; */
     color: #FFFFFF;
     border: none;
     background: #2196F3;
