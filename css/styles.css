@@ -66,7 +66,6 @@ body{
 .header-container{
     display: flex;
     align-items: center;
-    gap: 50px;
     margin-right: auto;
 }
 
@@ -96,7 +95,7 @@ body{
 .header-nav {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     }
 
 .header-nav-links {
@@ -130,12 +129,13 @@ body{
 /* Герой */
 
 .hero {
-    background: #2F303A;    
+    background: #2F303A; 
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-container{
-    padding-top: 200px;
-    padding-bottom: 200px;
+   
 }
 
 .hero-title {
@@ -147,6 +147,9 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-hero {
@@ -191,9 +194,9 @@ body{
 /* Секція Наші переваги */
 
 .features-section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
+
 
 .div-features{
     width: 270px;
@@ -223,7 +226,11 @@ body{
 /* Секція чим ми займаємося*/
 
 .directions-section{
-    padding-bottom: 94px;
+    
+}
+
+.section.directions-section {
+    padding-top: 0;
 }
 
 .directions{
@@ -237,15 +244,16 @@ body{
 
 .section-team{
     background: #F5F4FA;
-    padding-bottom: 94px;
-    padding-top: 94px;
-    }
+}
+.team-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .div-team{
     background-color: #FFFFFF;
     width: 270px;
     height: 368px;
-    padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -265,8 +273,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: #212121;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* Футер */
@@ -284,6 +291,7 @@ body{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #2196F3;
+    display: inline-block;
     text-decoration: none;
     margin-bottom: 20px;
 }
@@ -300,13 +308,16 @@ address{
     list-style: none;
 }
 
+.footer-li:not(:last-child){
+    margin-bottom: 9px;
+}
+
 .footer-address{
     font-size: 14px;
     line-height: 1.7143;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
-    margin-bottom: 9px;
 }
 
 .footer-contact{
@@ -315,7 +326,6 @@ address{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-bottom: 9px;
 }
 
 .footer-address:hover,
@@ -367,13 +377,7 @@ address{
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
     border-bottom: 1px solid #ECECEC;
-    width: 370px;
     padding: 20px 24px 20px 24px;
-}
-
-.portfolio-section{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .portfolio-list{
