@@ -18,6 +18,10 @@ ul{
     padding: 0;
 }
 
+img{
+    display: block;
+}
+
 button{
     /* cursor: pointer; */
 }
@@ -46,7 +50,7 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .logo{
@@ -100,16 +104,12 @@ body{
 /* Герой */
 
 .hero {
-    background: #2F303A;
-    padding-top: 200px;
-        padding-bottom: 200px;
-        margin-bottom: 94px;
+    background: #2F303A;    
 }
 
 .hero-container{
-   padding-left: 357px;
-   padding-right: 357px;
-       
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
 .hero-title {
@@ -120,6 +120,7 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
    
    
 }
@@ -129,7 +130,8 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    display: flex;
+    display: block;
+    margin: 0 auto;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -161,8 +163,14 @@ body{
 }
 
 /* Секція Наші переваги */
-.features-container{
-    margin-bottom: 94px;
+
+.features-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.div-features{
+    width: 270px;
 }
 
 .features {
@@ -181,20 +189,34 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 /* Секція чим ми займаємося*/
+
+.directions-section{
+    padding-bottom: 94px;
+}
 
 .directions{
     list-style: none;
 }
 
 /* Секція команда */
+
 .section-team{
     background: #F5F4FA;
     padding-bottom: 94px;
     padding-top: 94px;
     }
+
+.div-team{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+}
 
 .team {
     font-size: 16px;
@@ -208,12 +230,16 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: #212121;
-}
+    margin-top: 30px;
+    margin-bottom: 10px;
+   }
 
 /* Футер */
 
 .footer{
-background: #2F303A;
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -224,6 +250,7 @@ background: #2F303A;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .footer-logo-studio {
@@ -244,6 +271,7 @@ address{
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .footer-contact{
@@ -252,6 +280,7 @@ address{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .footer-address:hover,
@@ -266,6 +295,7 @@ address{
 
 .button-list{
     list-style: none;
+    margin-bottom: 50px;
 }
 
 .button-portfolio{
@@ -277,6 +307,10 @@ address{
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
+    display: flow-root;
+    display: block;
+    margin: 0 auto;
+    padding: 6px 22px;
 }
 
 .button-portfolio:hover,
@@ -286,6 +320,18 @@ address{
 }
 
 /* Список портфоліо */
+
+.portfolio-version{
+    background-color: #FFFFFF;
+    border: 1px solid #ECECEC;
+    width: 370px;
+   
+}
+
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .portfolio-list{
     list-style: none;
@@ -297,10 +343,19 @@ address{
     line-height: 2;  
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    width: 322px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .portfolio-type{
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    width: 322px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
