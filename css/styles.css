@@ -36,6 +36,19 @@ body{
     color: #757575;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Студія____________________________________ */
 
 .container{
@@ -43,14 +56,22 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+}
+
+/* Header___________________________________ */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: auto;
 }
 
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
-    /* outline: 2px solid red; */
 }
 
 .logo{
@@ -61,7 +82,8 @@ body{
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-   }
+    margin-right: 93px;
+}
 
 .logo-studio{
     color: #000000;
@@ -71,6 +93,8 @@ body{
 
 .header-nav {
     list-style: none;
+    display: flex;
+    gap: 30px;
     }
 
 .header-nav-links {
@@ -108,8 +132,8 @@ body{
 }
 
 .hero-container{
-   padding-top: 200px;
-   padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -121,8 +145,6 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
-   
-   
 }
 
 .button-hero {
@@ -132,16 +154,14 @@ body{
     line-height: 1.875;
     display: block;
     margin: 0 auto;
-    /* align-items: center;
-    text-align: center; */
-    /* letter-spacing: 0.06em; */
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     border: none;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    
+    padding: 10px 32px;
 }
 
 .button-hero:hover,
@@ -150,6 +170,10 @@ body{
 }
 
 /* Секції */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* Заголовки секцій */
 
 .section-title{
@@ -178,8 +202,9 @@ body{
     line-height: 1.7143;
     letter-spacing: 0.03em;
     list-style: none;
-    margin-left: 215px;
-    margin-right: 215px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
 }
 
 .features-title {
@@ -190,6 +215,7 @@ body{
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 10px;
+    width: 270px;
 }
 
 /* Секція чим ми займаємося*/
@@ -200,6 +226,9 @@ body{
 
 .directions{
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 /* Секція команда */
@@ -215,7 +244,8 @@ body{
     width: 270px;
     height: 368px;
     padding-bottom: 30px;
-    border: 1px solid black;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team {
@@ -224,6 +254,9 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .team-title {
@@ -232,7 +265,7 @@ body{
     color: #212121;
     margin-top: 30px;
     margin-bottom: 10px;
-   }
+}
 
 /* Футер */
 
@@ -296,6 +329,10 @@ address{
 .button-list{
     list-style: none;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center
 }
 
 .button-portfolio{
@@ -311,6 +348,8 @@ address{
     display: block;
     margin: 0 auto;
     padding: 6px 22px;
+    border-radius: 4px;
+    border: 0ch;
 }
 
 .button-portfolio:hover,
@@ -323,9 +362,10 @@ address{
 
 .portfolio-version{
     background-color: #FFFFFF;
-    border: 1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     width: 370px;
-   
 }
 
 .portfolio-section{
@@ -335,6 +375,10 @@ address{
 
 .portfolio-list{
     list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .portfolio-list-title{
@@ -343,7 +387,7 @@ address{
     line-height: 2;  
     letter-spacing: 0.06em;
     color: #212121;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
     width: 322px;
     margin-left: 24px;
