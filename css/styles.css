@@ -28,8 +28,8 @@ button{
     /* cursor: pointer; */
 }
 
-address{
-    /* font-style: normal; */
+address {
+    font-style: normal;
 }
 
 body{
@@ -193,11 +193,6 @@ body{
 
 /* Секція Наші переваги */
 
-.features-section{
-    
-}
-
-
 .div-features{
     width: 270px;
 }
@@ -224,10 +219,6 @@ body{
 }
 
 /* Секція чим ми займаємося*/
-
-.directions-section{
-    
-}
 
 .section.directions-section {
     padding-top: 0;
@@ -299,10 +290,6 @@ body{
 .footer-logo-studio {
     color: #FFFFFF;
     }
-
-address{
-    font-style: normal;
-}
 
 .footer-list{
     list-style: none;
@@ -383,9 +370,12 @@ address{
 .portfolio-list{
     list-style: none;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.portfolio-li{
+    flex-basis: calc((100% - 60px)/3);
 }
 
 .portfolio-list-title{
@@ -393,9 +383,7 @@ address{
     font-size: 18px;
     line-height: 2;  
     letter-spacing: 0.06em;
-    color: #212121;
-    
-    
+    color: #212121; 
 }
 
 .portfolio-type{
